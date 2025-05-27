@@ -14,7 +14,6 @@
     "luxon": "^3.5.0",
     "mds": "https://github.com/openmaxio/mds.git#a1369db4f33a385a6e71bd37fcd0e2ea687462dd",
     "react": "^18.3.1",
-    "react-component-export-image": "^1.0.6",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",
     "react-dropzone": "^14.3.5",
@@ -25,7 +24,6 @@
     "react-virtualized": "^9.22.6",
     "react-window": "^1.8.11",
     "react-window-infinite-loader": "^1.0.10",
-    "recharts": "^2.15.1",
     "styled-components": "5.3.11",
     "superagent": "^9.0.2",
     "tinycolor2": "^1.6.0"
@@ -61,6 +59,7 @@
   "proxy": "http://localhost:9090/",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/runtime": "^7.26.10",
     "@playwright/test": "^1.50.1",
     "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.15",
@@ -97,7 +96,8 @@
     "ws": "^8.17.1",
     "rollup": "^4.24.0",
     "cookie": "^0.7.2",
-    "jspdf": "^3.0.0"
+    "jspdf": "^3.0.0",
+    "@babel/runtime": "^7.26.10"
   },
   "main": "index.js",
   "packageManager": "yarn@4.4.0"

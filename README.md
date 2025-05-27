@@ -16,7 +16,6 @@ make console
 CONSOLE_MINIO_SERVER=http://1.2.3.4:9000 ./console server 
 ```
 
-
 # OpenMaxIO Console
 
 This is a fork of MinIO Console. 
